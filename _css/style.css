@@ -1,0 +1,139 @@
+@charset "UTF-8"
+
+body {
+	background-color: #f0baff;
+}
+
+header#cabecalho {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+}
+
+header#cabecalho h1 {
+	position: relative;
+	font-family: arial, sans-serif;
+	font-size: 20pt;
+	color: white;
+	padding: 10px 200px 10px 10px;
+	background-color: #4800a2;
+	margin-top: 0px;
+	text-align: left;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .6);
+}
+
+h1#logo a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h1#logo a:hover {
+	text-decoration: underline;
+}
+
+nav#menu {
+	position: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	position: fixed;
+	top: -20px;
+	left: 920px;
+}
+
+nav#menu li {
+	display: inline-block;
+	padding: 20px 0px 20px 0px;
+	background-color: #724bb9;
+}
+
+nav#menu li a {
+	padding: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav#menu li a:hover {
+	background-color: #3a1283;
+	transition: background-color .5s;
+}
+
+div#corpo {
+	background-color: #ffffff;
+	width: 1310px;
+	margin: 0px auto 0px auto;
+	padding: 10px;
+}
+
+div#corpo p {
+	text-align: justify;
+	font-size: 14pt;
+	color: #000000;
+}
+
+div#corpo h1 {
+	font-family: "times new roman", sans-serif;
+	font-size: 20pt;
+	padding: 5px;
+	background-color: #9966ff;
+	color: white;
+	text-align: center;
+}
+
+img#icone-menu {
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: 30px;
+}
+
+figure.banner {
+	margin: 50px auto 0px auto;
+	padding: 0px;
+}
+
+figure.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+footer#rodape {
+	clear:	both;
+	font-family: 'times new roman', sans-serif;
+	height: 75px;
+	border-top: 1px solid #4c4c4c;
+}
+
+footer#rodape p {
+	text-align: center;
+	font-size: 12pt;
+	margin-top: 20px;
+}
+
+footer#rodape a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+footer#rodape a:hover {
+	color: #3a0028;
+	text-decoration: underline;
+}
+
+section#coluna-um {
+	display: block;
+	float: left;
+	width: 648px;
+	border-right: 1px solid #4c4c4c;
+	padding-right: 10px;
+}
+
+section#coluna-dois {
+	display: block;
+	float: right;
+	width: 640px;
+	padding-left: 10px;
+	margin-left: 0px;
+}
